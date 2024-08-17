@@ -34,6 +34,10 @@ pub static BOOT_LOADER: [u8; 256] = rp2040_boot2::BOOT_LOADER_W25Q080;
 // ===========
 const XTAL_FREQ_HZ: u32 = 12_000_000u32;
 
+
+const UNIT_DELAY: u32 =  31_770_000; // in nanoseconds
+                              // every 525 unit delays, vsync also updates
+const HSYNC_TO_VSYNC_RATIO: u32 =  50;  // in nanoseconds
 // ===========
 // Req 7
 // ===========
@@ -78,35 +82,39 @@ fn main() -> ! {
         &mut pac.RESETS,
     );
 
-    let mut led_pin = pins.gpio25.into_push_pull_output();
-    let mut gpio9 = pins.gpio9.into_push_pull_output();
     // // let mut vsync_pin = pins.gpio14.into_push_pull_output();
     // // VGA implementation
     // // Hsync needs to refresh every 31.77 microseconds and
     // // Vsync every 16.67 miliseconds.
-    // let hsync_refresh_period: u32 = 31_770u32;
-    // let vsync_refresh_period: u32 = 525u32 * 31_770u32;
-    //
-    // let mut hsync_pin = pins.gpio9.into_push_pull_output();
-    // let mut vsync_pin = pins.gpio10.into_push_pull_output();
-    // This actually goes last, after everything has been initialized
+    let mut hsync_pin = pins.gpio9.into_push_pull_output();
+    let mut vsync_pin = pins.gpio10.into_push_pull_output();
+    let mut hsync_state: bool = false;  // 0 state
+    let mut vsync_state: bool = false;  // 0 state
+    let mut counter: u32 = 0;
     loop {
-        // Loopy things go here
-        // hsync_pin.set_high().unwrap();
-        // timer.delay_ns(hsync_refresh_period);
-        // hsync_pin.set_low().unwrap();
-        // timer.delay_us(hsync_refresh_period);
-        //
-        // vsync_pin.set_high().unwrap();
-        // timer.delay_ns(vsync_refresh_period);
-        // vsync_pin.set_low().unwrap();
-        // timer.delay_us(vsync_refresh_period);
-        //
-        led_pin.set_high().unwrap();
-        gpio9.set_high().unwrap();
-        timer.delay_us(300);
-        led_pin.set_low().unwrap();
-        gpio9.set_low().unwrap();
-        timer.delay_us(600);
+        //Update hsync
+        if hsync_state {
+            hsync_pin.set_low().unwrap();
+            hsync_state ^= true
+        }
+        else {
+            hsync_pin.set_high().unwrap();
+            hsync_state ^= true
+        }
+
+        if counter % UNIT_DELAY == HSYNC_TO_VSYNC_RATIO {
+            // Update vsync
+            if vsync_state {
+                vsync_pin.set_low().unwrap();
+                vsync_state ^= true
+            }
+            else {
+                vsync_pin.set_high().unwrap();
+                vsync_state ^= true
+            }
+        }
+
+        counter += UNIT_DELAY;
+        timer.delay_ns(UNIT_DELAY);
     }
 }

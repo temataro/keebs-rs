@@ -334,3 +334,9 @@ In order to use the memory.x file, `.cargo/config.toml` must be called with the 
 The linker script (whatever that is... .cargo/config.toml?) defines where different sections of code are placed
 in memory. (.text, .data, etc)
 
+
+### Implementing a VGA
+
+All I know is that there is an hsync and vsync signal that need to be sent out.
+Idea, divide delay into the smallest unit and test a counter conditional to see
+whether each pin would update.
