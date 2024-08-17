@@ -3,22 +3,6 @@
 version = 3
 
 [[package]]
-name = "Keebs-rs"
-version = "0.1.0"
-dependencies = [
- "cortex-m",
- "cortex-m-rt",
- "defmt",
- "defmt-rtt",
- "embedded-hal 1.0.0",
- "panic-halt",
- "panic-probe",
- "rp-pico",
- "rp2040-boot2",
- "rp2040-hal",
-]
-
-[[package]]
 name = "arrayvec"
 version = "0.7.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -288,6 +272,22 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b0fd2260e829bddf4cb6ea802289de2f86d6a7a690192fbe91b3f46e0f2c8473"
 dependencies = [
  "either",
+]
+
+[[package]]
+name = "keebs-rs"
+version = "0.1.0"
+dependencies = [
+ "cortex-m",
+ "cortex-m-rt",
+ "defmt",
+ "defmt-rtt",
+ "embedded-hal 1.0.0",
+ "panic-halt",
+ "panic-probe",
+ "rp-pico",
+ "rp2040-boot2",
+ "rp2040-hal",
 ]
 
 [[package]]
