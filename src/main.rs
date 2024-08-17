@@ -78,13 +78,14 @@ fn main() -> ! {
         &mut pac.RESETS,
     );
 
+    let led_delay_ns: u32 = 2000u32 * 1_000u32;
     let mut led_pin = pins.gpio25.into_push_pull_output();
     // This actually goes last, after everything has been initialized
     loop {
         // Loopy things go here
         led_pin.set_high().unwrap();
-        timer.delay_ms(500);
+        timer.delay_ns(led_delay_ns);
         led_pin.set_low().unwrap();
-        timer.delay_ms(500);
+        timer.delay_us(led_delay_ns);
     }
 }
