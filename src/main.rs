@@ -78,14 +78,35 @@ fn main() -> ! {
         &mut pac.RESETS,
     );
 
-    let led_delay_ns: u32 = 2000u32 * 1_000u32;
     let mut led_pin = pins.gpio25.into_push_pull_output();
+    let mut gpio9 = pins.gpio9.into_push_pull_output();
+    // // let mut vsync_pin = pins.gpio14.into_push_pull_output();
+    // // VGA implementation
+    // // Hsync needs to refresh every 31.77 microseconds and
+    // // Vsync every 16.67 miliseconds.
+    // let hsync_refresh_period: u32 = 31_770u32;
+    // let vsync_refresh_period: u32 = 525u32 * 31_770u32;
+    //
+    // let mut hsync_pin = pins.gpio9.into_push_pull_output();
+    // let mut vsync_pin = pins.gpio10.into_push_pull_output();
     // This actually goes last, after everything has been initialized
     loop {
         // Loopy things go here
+        // hsync_pin.set_high().unwrap();
+        // timer.delay_ns(hsync_refresh_period);
+        // hsync_pin.set_low().unwrap();
+        // timer.delay_us(hsync_refresh_period);
+        //
+        // vsync_pin.set_high().unwrap();
+        // timer.delay_ns(vsync_refresh_period);
+        // vsync_pin.set_low().unwrap();
+        // timer.delay_us(vsync_refresh_period);
+        //
         led_pin.set_high().unwrap();
-        timer.delay_ns(led_delay_ns);
+        gpio9.set_high().unwrap();
+        timer.delay_us(300);
         led_pin.set_low().unwrap();
-        timer.delay_us(led_delay_ns);
+        gpio9.set_low().unwrap();
+        timer.delay_us(600);
     }
 }
