@@ -1,0 +1,10582 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "109043e9-e37a-4555-bee6-988a67d2f412")
+	(paper "A2")
+	(title_block
+		(title "ataro_keeb")
+		(rev "0.2")
+	)
+	(lib_symbols
+		(symbol "Lily58-rescue:D-Lily58-cache"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Lily58-cache:D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D-Lily58-cache_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D-Lily58-cache_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Lily58-rescue:GND-Lily58-cache"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Lily58-cache:GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND-Lily58-cache_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Lily58-rescue:GND-power"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "power:GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND-power_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND-power_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Lily58-rescue:HOLE-Lily58-cache"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "Lily58-cache:HOLE"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HOLE-Lily58-cache_0_0"
+				(text "HOLE"
+					(at 0 3.81 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(symbol "HOLE-Lily58-cache_0_1"
+				(rectangle
+					(start 3.81 5.08)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Lily58-rescue:MJ-4PP-9-Lily58-cache"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -8.89 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "Lily58-cache:MJ-4PP-9"
+				(at -3.81 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MJ-4PP-9-Lily58-cache_0_1"
+				(rectangle
+					(start -7.62 2.54)
+					(end -8.89 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 7.62 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 -1.27) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 1.27) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 3.81) (xy -7.62 3.81) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -3.81 -3.81) (xy -5.08 -5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 7.62 -2.54) (xy 7.62 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 -6.35)
+					(end -10.16 5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MJ-4PP-9-Lily58-cache_1_1"
+				(pin passive line
+					(at 11.43 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -2.54 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -5.08 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 3.81 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Lily58-rescue:PWR_FLAG-Lily58-cache"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Lily58-cache:PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG-Lily58-cache_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG-Lily58-cache_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Lily58-rescue:ProMicro_2-Lily58-cache"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Lily58-cache:ProMicro_2"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ProMicro_2-Lily58-cache_0_1"
+				(rectangle
+					(start -11.43 16.51)
+					(end 11.43 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ProMicro_2-Lily58-cache_1_1"
+				(pin input line
+					(at -16.51 13.97 0)
+					(length 5.08)
+					(name "TX(PD3)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -8.89 0)
+					(length 5.08)
+					(name "D7(PE6)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -11.43 0)
+					(length 5.08)
+					(name "D8(PB4)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -13.97 0)
+					(length 5.08)
+					(name "D9(PB5)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -13.97 180)
+					(length 5.08)
+					(name "D10(PB6)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -11.43 180)
+					(length 5.08)
+					(name "D16(PB2)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -8.89 180)
+					(length 5.08)
+					(name "D14(PB3)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -6.35 180)
+					(length 5.08)
+					(name "D15(PB1)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -3.81 180)
+					(length 5.08)
+					(name "A0(PF7)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -1.27 180)
+					(length 5.08)
+					(name "A1(PF6)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 1.27 180)
+					(length 5.08)
+					(name "A2(PF5)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 11.43 0)
+					(length 5.08)
+					(name "RX(PD2)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 3.81 180)
+					(length 5.08)
+					(name "A3(PF4)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 6.35 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 8.89 180)
+					(length 5.08)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 11.43 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 13.97 180)
+					(length 5.08)
+					(name "RAW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 8.89 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 3.81 0)
+					(length 5.08)
+					(name "SDA(PD1)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 1.27 0)
+					(length 5.08)
+					(name "SCL(PD0)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -1.27 0)
+					(length 5.08)
+					(name "D4(PD4)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -3.81 0)
+					(length 5.08)
+					(name "D5(PC6)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -6.35 0)
+					(length 5.08)
+					(name "D6(PD7)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Lily58-rescue:SW_PUSH-Lily58-cache"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 3.81 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Lily58-cache:SW_PUSH"
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_PUSH-Lily58-cache_0_1"
+				(rectangle
+					(start -4.318 1.27)
+					(end 4.318 1.524)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Lily58-rescue:SW_RST-Lily58-cache"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RSW"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "Lily58-cache:SW_RST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_RST-Lily58-cache_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Lily58-rescue:VCC-Lily58-cache"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Lily58-cache:VCC"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC-Lily58-cache_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.905)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC-Lily58-cache_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Lily58-rescue:VCC-power"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "power:VCC"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC-power_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.905)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC-power_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_4ms_Switch:Encoder_Rotary_11mm_SPST_DShaft"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ENC"
+				(at -5.08 8.255 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Encoder_Rotary_11mm_SPST_DShaft"
+				(at -5.08 10.16 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "4ms_Encoder:ENC_SPST_12mm"
+				(at 0.635 12.7 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -8.89 -6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Alpha Taiwan"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "RE111F-41B3N-20F-20P-N"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft"
+				(at 2.54 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 2" "Bourns"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number 2" "PEC11L-4020F-S0020"
+				(at 1.27 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Encoder Rotary Smooth"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*ROTENC-12MM-BUT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Encoder_Rotary_11mm_SPST_DShaft_1_0"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Encoder_Rotary_11mm_SPST_DShaft_1_1"
+				(pin passive line
+					(at 5.08 -5.08 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Encoder_Rotary_11mm_SPST_DShaft_2_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 3.048) (xy -0.762 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 3.556) (xy 0.762 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.556) (xy 0.762 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.032 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Encoder_Rotary_11mm_SPST_DShaft_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "SW1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SW1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "SW2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SW2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_Resistor_AKL:R_DIN0204_P2.54mm"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_DIN0204_P2.54mm"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_THT_AKL:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "THT 0204 Resistor, 2.54mm Pin Pitch, European Symbol, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor eu tht 2.54mm 0204"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_DIN0204_P2.54mm_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_DIN0204_P2.54mm_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 213.36 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03d04808-4c4c-47f8-a5c0-bbedbf8729c9")
+	)
+	(junction
+		(at 77.47 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08ef3620-647b-47be-bb6b-6939d418528e")
+	)
+	(junction
+		(at 233.68 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c0781c6-3943-4b36-9b77-223c099eeca9")
+	)
+	(junction
+		(at 167.64 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0edc5916-5792-4d56-96c6-b5c9bf48e161")
+	)
+	(junction
+		(at 167.64 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c3506be-ef2e-4874-93ab-493824e7bf64")
+	)
+	(junction
+		(at 111.76 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dc38897-4f88-4cb1-9716-9943f668e32a")
+	)
+	(junction
+		(at 208.28 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28b420ef-35ac-4b2c-9931-a01423796512")
+	)
+	(junction
+		(at 208.28 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d5dac4d-effa-4fed-898a-9616c4d140bd")
+	)
+	(junction
+		(at 152.4 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e181e0b-cc97-4fb0-8d7d-8a7cad679cad")
+	)
+	(junction
+		(at 147.32 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3942a37d-d755-4e4e-b567-eb3aa1d934f6")
+	)
+	(junction
+		(at 193.04 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c7b900b-b6a1-4b95-8de4-94f095f7d1d4")
+	)
+	(junction
+		(at 147.32 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46dfdb44-b9ad-4e78-a6f4-e3188234a966")
+	)
+	(junction
+		(at 193.04 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46fc71fa-43b8-43df-9d92-2f593bc7ced3")
+	)
+	(junction
+		(at 172.72 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aa18bd9-beab-4506-ae57-dece122ae736")
+	)
+	(junction
+		(at 127 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4be8680e-dc4f-4cc0-9f28-2b8c9fb4ab25")
+	)
+	(junction
+		(at 228.6 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eb0eb33-c1f8-4075-acc5-e7bf1c8a2501")
+	)
+	(junction
+		(at 193.04 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "526348d3-fc68-4b16-9a4d-06356eb97fb8")
+	)
+	(junction
+		(at 187.96 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53c30125-2a83-470b-89bd-866422e0b782")
+	)
+	(junction
+		(at 111.76 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5998f110-a763-46e7-a3d1-a95fc20f36ec")
+	)
+	(junction
+		(at 77.47 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b6b29e6-3c84-4695-ba92-2c516cc05f79")
+	)
+	(junction
+		(at 208.28 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "636b2ba1-7553-4da9-9dd7-b1591e75bd87")
+	)
+	(junction
+		(at 132.08 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67332885-1bf5-4530-ae4d-505cdc69af05")
+	)
+	(junction
+		(at 111.76 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b7ae2ce-8fda-4b56-83e9-6d1843823733")
+	)
+	(junction
+		(at 152.4 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7200f0aa-e0e4-42c5-8923-44e5cb48860c")
+	)
+	(junction
+		(at 228.6 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72efc393-5d49-469f-aa5e-52239451042a")
+	)
+	(junction
+		(at 111.76 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75135420-f324-4d5d-9dfa-23d3b2c49352")
+	)
+	(junction
+		(at 132.08 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "754bd943-cff0-4f61-ba37-a3a8c6abaff1")
+	)
+	(junction
+		(at 233.68 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7660e54f-a2b1-4e00-9bbe-285c028cad56")
+	)
+	(junction
+		(at 187.96 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78308b30-ef7b-4d90-8613-b39b4e492f86")
+	)
+	(junction
+		(at 208.28 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aecf2af-1a13-4718-a6e0-7296f21d3c83")
+	)
+	(junction
+		(at 233.68 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "804cc683-8040-4693-81bd-ed3526ee39aa")
+	)
+	(junction
+		(at 172.72 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80bb20ba-e7a0-4558-90a3-a6893bbaee40")
+	)
+	(junction
+		(at 147.32 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81bc6d91-c9aa-4e4a-9499-ded346565e82")
+	)
+	(junction
+		(at 127 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fdf05ab-cd4a-4148-8ed4-205420fc4e41")
+	)
+	(junction
+		(at 213.36 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9072f9ef-734f-424c-9d59-c50ad473428a")
+	)
+	(junction
+		(at 233.68 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91668d40-fdf5-44b3-bcb7-913f267199c2")
+	)
+	(junction
+		(at 127 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "920f80fb-2c0f-4721-8243-7c4529ad73e1")
+	)
+	(junction
+		(at 132.08 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9625d44d-caa7-4f63-ac21-a5aaa1137181")
+	)
+	(junction
+		(at 127 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9963a20d-43e5-4330-b667-a3b3f0c4df1d")
+	)
+	(junction
+		(at 213.36 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9de6bd82-4ec9-4a87-9309-848d30b52b01")
+	)
+	(junction
+		(at 147.32 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0606b1c-45bc-4d80-9d30-dd2919d2d775")
+	)
+	(junction
+		(at 77.47 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5557a15-9ea8-483a-aeff-f449b1ed3649")
+	)
+	(junction
+		(at 187.96 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9866b91-8e6e-4c8e-96fa-b3d054624951")
+	)
+	(junction
+		(at 187.96 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae21b318-dc86-408c-a4fe-c0b5a121111f")
+	)
+	(junction
+		(at 193.04 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af0fc820-ee12-409d-b229-541f67569c88")
+	)
+	(junction
+		(at 228.6 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b048aed8-b04a-406f-aea4-ae442980db35")
+	)
+	(junction
+		(at 213.36 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b17f8777-71c5-4e96-83fb-ddbb63f389fb")
+	)
+	(junction
+		(at 127 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd4842cf-9485-4a9e-9f0d-7abda0da7ef6")
+	)
+	(junction
+		(at 147.32 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0a1a469-7194-4776-a89c-44d6893301fe")
+	)
+	(junction
+		(at 172.72 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2bef981-543f-4f1c-a7ba-be7523122bef")
+	)
+	(junction
+		(at 152.4 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c70afd48-e85f-45dd-a7d0-3143d567d303")
+	)
+	(junction
+		(at 44.45 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cad4d58b-0435-4ebd-be7a-6fc1a5d684d1")
+	)
+	(junction
+		(at 208.28 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdf89628-56d9-4aa6-8c01-1cc6d63f79a9")
+	)
+	(junction
+		(at 167.64 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d16f5d12-1383-42f7-81b8-d69794ab8a14")
+	)
+	(junction
+		(at 228.6 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d277f8a3-ac13-4a54-bc7a-06331b5a7f80")
+	)
+	(junction
+		(at 167.64 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df37bf77-97af-4ed0-8995-2386210242cb")
+	)
+	(junction
+		(at 228.6 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e652a053-ba08-4b70-95d7-507c0db1ec3b")
+	)
+	(junction
+		(at 167.64 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e86a3316-bec6-408a-941d-de86ae52f020")
+	)
+	(junction
+		(at 187.96 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb33236b-04ad-4cfb-8646-c72a52774d14")
+	)
+	(junction
+		(at 152.4 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed0459bc-66fa-45e3-8edf-029ed41b24b4")
+	)
+	(junction
+		(at 132.08 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1e640e5-dd53-48b7-8a9c-e7f5af8924e3")
+	)
+	(junction
+		(at 172.72 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fec7030f-c6fb-4a03-9413-1095ff2a817c")
+	)
+	(no_connect
+		(at 44.45 39.37)
+		(uuid "127871a3-f1a4-43c0-9668-c886bbbf60d7")
+	)
+	(no_connect
+		(at 77.47 29.21)
+		(uuid "6b49d549-8206-4e91-b55e-ce98cee7b35c")
+	)
+	(no_connect
+		(at 44.45 41.91)
+		(uuid "ee802ff6-eab4-4c85-a04b-b9572816fdca")
+	)
+	(wire
+		(pts
+			(xy 81.28 34.29) (xy 77.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d75e70-d02e-412b-b0b6-79f7e2aa6090")
+	)
+	(wire
+		(pts
+			(xy 55.88 92.71) (xy 59.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06eff635-ecf7-4e6a-b4a0-e2e6ab24c36d")
+	)
+	(wire
+		(pts
+			(xy 167.64 86.36) (xy 187.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071bc677-e623-4d27-8a19-6922712fecf3")
+	)
+	(wire
+		(pts
+			(xy 233.68 78.74) (xy 233.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d2ec6c-d127-4807-92a1-c1c83ad5aa2f")
+	)
+	(wire
+		(pts
+			(xy 208.28 102.87) (xy 228.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c275d59-216e-4075-b81d-137b1d0ee489")
+	)
+	(wire
+		(pts
+			(xy 208.28 36.83) (xy 228.6 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d05b079-44ef-431b-9c67-ccef54d1de4f")
+	)
+	(wire
+		(pts
+			(xy 228.6 53.34) (xy 248.92 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e973a87-a9be-4a89-b26d-3232abbab59f")
+	)
+	(wire
+		(pts
+			(xy 43.18 92.71) (xy 48.26 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ece4f5b-1b5e-40a4-aace-8136e963f724")
+	)
+	(wire
+		(pts
+			(xy 77.47 44.45) (xy 82.55 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13305b2f-2aa4-4686-9b77-a0a22d695d41")
+	)
+	(wire
+		(pts
+			(xy 86.36 36.83) (xy 77.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146850cd-a67c-4087-8e9b-267f1ab4a646")
+	)
+	(wire
+		(pts
+			(xy 111.76 29.21) (xy 111.76 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17df2cfa-cf5a-48ca-a572-09e548010fb1")
+	)
+	(wire
+		(pts
+			(xy 127 102.87) (xy 147.32 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a2c754-b8f0-472b-86cb-8b48ab7b1eb3")
+	)
+	(polyline
+		(pts
+			(xy 12.065 193.675) (xy 276.225 193.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a80de9f-3950-49e8-91b4-658e12668726")
+	)
+	(wire
+		(pts
+			(xy 172.72 62.23) (xy 172.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b750d8f-f1d9-447f-8360-ad567d3a4544")
+	)
+	(wire
+		(pts
+			(xy 43.18 99.06) (xy 45.72 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee6f843-4b89-4414-beaf-6786f42bddc2")
+	)
+	(wire
+		(pts
+			(xy 228.6 86.36) (xy 248.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226d3edd-633a-4502-9dd8-f5dd66d4e592")
+	)
+	(wire
+		(pts
+			(xy 233.68 45.72) (xy 233.68 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b04e76-654e-4878-a107-fdf3d97e2758")
+	)
+	(wire
+		(pts
+			(xy 167.64 53.34) (xy 187.96 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bce8801-596e-4fac-a744-3397e1a574f2")
+	)
+	(wire
+		(pts
+			(xy 147.32 69.85) (xy 167.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce01ca4-38a8-475e-9f3c-fb2047b2a5a4")
+	)
+	(wire
+		(pts
+			(xy 147.32 102.87) (xy 167.64 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310bf721-0d51-4fc6-96da-5bf80be5dca5")
+	)
+	(wire
+		(pts
+			(xy 172.72 26.67) (xy 172.72 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354c3678-8216-4151-b225-488fe004bd3d")
+	)
+	(wire
+		(pts
+			(xy 111.76 78.74) (xy 111.76 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d7bd77-7449-44cc-8465-ec070f3eef3f")
+	)
+	(wire
+		(pts
+			(xy 228.6 69.85) (xy 248.92 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dda4e56-b0ac-4720-b87a-1911c850b4fa")
+	)
+	(wire
+		(pts
+			(xy 43.18 101.6) (xy 48.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef2e6fd-4d1b-4485-b751-9ea3f705987c")
+	)
+	(wire
+		(pts
+			(xy 233.68 45.72) (xy 233.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42215f9b-b9ae-4244-aef5-3f5569196ebd")
+	)
+	(wire
+		(pts
+			(xy 167.64 36.83) (xy 187.96 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e31723-5f16-47e8-87fb-c587f726abc3")
+	)
+	(wire
+		(pts
+			(xy 152.4 26.67) (xy 152.4 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e7a8724-7209-4d02-b053-1122b56a0013")
+	)
+	(wire
+		(pts
+			(xy 45.72 99.06) (xy 45.72 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e96ed54-ffe9-4e49-829a-8e0faa048716")
+	)
+	(wire
+		(pts
+			(xy 77.47 41.91) (xy 82.55 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f070734-7219-4839-866c-fa70c7648db0")
+	)
+	(wire
+		(pts
+			(xy 187.96 53.34) (xy 208.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5031a046-834c-4fdd-ad8e-9bd052894f6f")
+	)
+	(wire
+		(pts
+			(xy 132.08 78.74) (xy 132.08 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5221a4ba-8b69-4555-bbb0-c807eacace07")
+	)
+	(wire
+		(pts
+			(xy 208.28 86.36) (xy 228.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5281b381-4a51-4b5f-8244-6c8f579bf2ba")
+	)
+	(wire
+		(pts
+			(xy 74.93 44.45) (xy 77.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5313abec-3294-4238-85a8-e685c2bd1fbf")
+	)
+	(wire
+		(pts
+			(xy 105.41 53.34) (xy 127 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53dbe7ba-fa50-4e94-8a36-d7dee7962458")
+	)
+	(wire
+		(pts
+			(xy 228.6 102.87) (xy 248.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54329391-0bcf-416f-9586-bc18ba4303d9")
+	)
+	(wire
+		(pts
+			(xy 213.36 78.74) (xy 213.36 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595df419-795a-46d6-997c-0f47a6a23086")
+	)
+	(wire
+		(pts
+			(xy 208.28 69.85) (xy 228.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a883674-2f59-4bee-9f23-b8cf3ca5a12c")
+	)
+	(wire
+		(pts
+			(xy 172.72 45.72) (xy 172.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dad3e1f-d9c3-459f-9ee3-0ad2d486925a")
+	)
+	(wire
+		(pts
+			(xy 77.47 46.99) (xy 82.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65345f54-9591-4452-8117-6c7945f1c448")
+	)
+	(wire
+		(pts
+			(xy 187.96 102.87) (xy 208.28 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f422aa-9786-46aa-b4eb-247094d575fc")
+	)
+	(wire
+		(pts
+			(xy 233.68 62.23) (xy 233.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6626ff92-06cf-42d1-8864-424dc6074922")
+	)
+	(wire
+		(pts
+			(xy 111.76 26.67) (xy 111.76 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689b8387-3b1a-464f-a4d5-063d0af942e5")
+	)
+	(wire
+		(pts
+			(xy 213.36 45.72) (xy 213.36 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c7333f-f9f1-47c4-a357-cb95d5091dc2")
+	)
+	(wire
+		(pts
+			(xy 208.28 53.34) (xy 228.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbe98c2-ec90-4505-a41c-87f6534faf42")
+	)
+	(polyline
+		(pts
+			(xy 276.225 12.065) (xy 276.225 193.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73aeb619-ec15-47a8-b344-9ecdcac27f1c")
+	)
+	(wire
+		(pts
+			(xy 111.76 45.72) (xy 111.76 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7610e2c1-2e7d-4497-bb40-08d2b2f4833b")
+	)
+	(wire
+		(pts
+			(xy 193.04 45.72) (xy 193.04 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78841710-1ce7-4246-9bbc-efe918fe564a")
+	)
+	(wire
+		(pts
+			(xy 76.2 46.99) (xy 77.47 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78db6bfe-89ec-4094-a902-b54c5fc85c9b")
+	)
+	(wire
+		(pts
+			(xy 228.6 36.83) (xy 248.92 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a58927d-df50-42ad-aa61-dca529656b75")
+	)
+	(wire
+		(pts
+			(xy 105.41 102.87) (xy 127 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc33a54-c349-473b-8455-3a4221cab03b")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 147.32 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b43e17-47bc-473f-aeb2-7b6de9d0e205")
+	)
+	(wire
+		(pts
+			(xy 86.36 31.75) (xy 77.47 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a50682-244b-4d48-bc80-687d9358ada9")
+	)
+	(wire
+		(pts
+			(xy 187.96 86.36) (xy 208.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "851cd78a-4150-48b5-99c1-66127cf4e050")
+	)
+	(wire
+		(pts
+			(xy 77.47 52.07) (xy 82.55 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0b81ec-0f3b-4d23-b67d-346b76a99d3e")
+	)
+	(wire
+		(pts
+			(xy 167.64 102.87) (xy 187.96 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9d0c6b-3028-4abd-8ff2-81e3676ca8a3")
+	)
+	(wire
+		(pts
+			(xy 152.4 45.72) (xy 152.4 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91bb5158-7c3e-470a-b1e2-dd5fae52e187")
+	)
+	(wire
+		(pts
+			(xy 105.41 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924112e9-acb9-4bc5-94cf-a10c7bca57ab")
+	)
+	(wire
+		(pts
+			(xy 77.47 57.15) (xy 82.55 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954a12e9-cdbc-44ae-adf6-93c3abd6809e")
+	)
+	(wire
+		(pts
+			(xy 44.45 36.83) (xy 31.75 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab5a87b-d872-4c86-842f-a8bbcd4ee2ab")
+	)
+	(wire
+		(pts
+			(xy 105.41 69.85) (xy 127 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc613c0-45ac-4668-8008-2c2488268484")
+	)
+	(wire
+		(pts
+			(xy 55.88 101.6) (xy 59.69 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be973ca-a494-4bb0-ba2a-6e94790e83e7")
+	)
+	(wire
+		(pts
+			(xy 127 53.34) (xy 147.32 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d08964b-fc36-4de7-a3fb-67d1b13186eb")
+	)
+	(wire
+		(pts
+			(xy 172.72 29.21) (xy 172.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d835fb7-0e5c-411c-bde7-d88b713e82b0")
+	)
+	(wire
+		(pts
+			(xy 152.4 62.23) (xy 152.4 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a060a954-4f84-4bda-9f1c-819deb1fe1dc")
+	)
+	(wire
+		(pts
+			(xy 73.66 41.91) (xy 77.47 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a263c1b5-ccc6-4a1a-ade6-fbe3a1cb9510")
+	)
+	(wire
+		(pts
+			(xy 132.08 29.21) (xy 132.08 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c216ea-85d9-4603-834a-42120b84b4b4")
+	)
+	(wire
+		(pts
+			(xy 132.08 45.72) (xy 132.08 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab378b90-8806-4b31-af93-9a8191cc5b1b")
+	)
+	(wire
+		(pts
+			(xy 147.32 53.34) (xy 167.64 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab47b96e-5e9e-4452-92ad-b5fa743bb393")
+	)
+	(wire
+		(pts
+			(xy 111.76 62.23) (xy 111.76 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "affac9ca-303f-4565-8d96-df2d620343b6")
+	)
+	(wire
+		(pts
+			(xy 213.36 26.67) (xy 213.36 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b026fde6-ab1f-4a18-bd34-1507662e0113")
+	)
+	(wire
+		(pts
+			(xy 187.96 36.83) (xy 208.28 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c0c6ed-15eb-4697-865d-b3bb1f132640")
+	)
+	(wire
+		(pts
+			(xy 45.72 91.44) (xy 45.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38300e0-713a-489c-908f-cca4a232e5cd")
+	)
+	(wire
+		(pts
+			(xy 187.96 69.85) (xy 208.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e3852b-c073-4e6d-a3cd-7753544288cb")
+	)
+	(wire
+		(pts
+			(xy 77.47 54.61) (xy 82.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b63fd69b-bab1-4d86-bea2-e285adf8ced9")
+	)
+	(wire
+		(pts
+			(xy 167.64 69.85) (xy 187.96 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87cc04b-3b58-44e8-a012-0079a94c0599")
+	)
+	(wire
+		(pts
+			(xy 213.36 45.72) (xy 213.36 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6bd685-a34d-4e32-acf7-a28d3c8ebb9d")
+	)
+	(wire
+		(pts
+			(xy 152.4 29.21) (xy 152.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7143809-96a9-45a9-b231-dc8a979e7fc8")
+	)
+	(wire
+		(pts
+			(xy 132.08 62.23) (xy 132.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d7f1e4-86a4-4ff3-a538-ce729c7b1bd2")
+	)
+	(wire
+		(pts
+			(xy 213.36 62.23) (xy 213.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94847bb-4e0d-4531-9b83-fa91d7e9bb3b")
+	)
+	(wire
+		(pts
+			(xy 193.04 29.21) (xy 193.04 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3c73ab-5227-400b-9d17-0db5c549d587")
+	)
+	(wire
+		(pts
+			(xy 77.47 49.53) (xy 82.55 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce988afc-8307-4b2d-afdf-2df9510321e0")
+	)
+	(wire
+		(pts
+			(xy 44.45 34.29) (xy 44.45 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced84af2-d782-46b4-8df6-ecc42baebcab")
+	)
+	(wire
+		(pts
+			(xy 152.4 78.74) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d116a30c-6849-4ee0-a696-4509ad675e3c")
+	)
+	(wire
+		(pts
+			(xy 193.04 26.67) (xy 193.04 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e06e67-f8fc-4610-83b8-6e11f9459899")
+	)
+	(wire
+		(pts
+			(xy 193.04 62.23) (xy 193.04 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55d63b2-a744-44ef-84c9-da46cdfaab2a")
+	)
+	(wire
+		(pts
+			(xy 127 69.85) (xy 147.32 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d903b6-7bc6-4260-8168-2341f3ce7c9a")
+	)
+	(wire
+		(pts
+			(xy 193.04 78.74) (xy 193.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76fd029-3366-427a-90fa-fff117806738")
+	)
+	(wire
+		(pts
+			(xy 45.72 96.52) (xy 43.18 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd3eba21-488b-472f-955e-f4a66180d272")
+	)
+	(wire
+		(pts
+			(xy 105.41 36.83) (xy 127 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e21c240b-8eba-4f72-8468-3015c77433d7")
+	)
+	(wire
+		(pts
+			(xy 147.32 86.36) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7884af7-fcce-436c-bb41-212e19193733")
+	)
+	(wire
+		(pts
+			(xy 233.68 26.67) (xy 233.68 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8e130b4-f70b-4364-9224-8edf97437349")
+	)
+	(wire
+		(pts
+			(xy 172.72 78.74) (xy 172.72 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb638d2-8ecc-49eb-90e1-1e0567694be0")
+	)
+	(wire
+		(pts
+			(xy 132.08 26.67) (xy 132.08 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1f0f53-2dd4-4bd9-9d24-86be74cc8439")
+	)
+	(wire
+		(pts
+			(xy 127 36.83) (xy 147.32 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6237b0-e497-461e-abfb-9c4c97f2ceb9")
+	)
+	(wire
+		(pts
+			(xy 147.32 36.83) (xy 167.64 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d226ae-1d02-4dcf-9cab-dba9c19f1446")
+	)
+	(label "RST"
+		(at 77.47 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "896400e1-4ef7-4e57-b5a7-50e770f00ce4")
+	)
+	(global_label "row2"
+		(shape input)
+		(at 105.41 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03458ff5-2469-4197-8065-f925b715be2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX"
+		(shape input)
+		(at 59.69 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0443bc38-152b-4195-8ddf-ccbcc6e6d43c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col4"
+		(shape input)
+		(at 193.04 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08c2aa68-62ec-49e4-af2b-80ad507602de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row1"
+		(shape input)
+		(at 44.45 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d319f14-5b39-4813-af58-8f4ed7cd520a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col3"
+		(shape input)
+		(at 172.72 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cd50df7-2d7a-4fcc-aa22-df60576e5865")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 105.41 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "216ecdd5-40e4-448b-992b-bb93d53de89d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B"
+		(shape input)
+		(at 26.67 128.27 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21bc38dc-e99f-4423-a30a-0742dd4e255e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.67 132.5252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row4"
+		(shape input)
+		(at 44.45 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28c21517-293d-400c-8087-aff9b361ff06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A"
+		(shape input)
+		(at 44.45 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a19117d-ca67-467e-a3b1-a92e5c110e32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.3762 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 81.28 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f41ff56-6c9c-4219-9f02-5cc3fb4b1d31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col6"
+		(shape input)
+		(at 233.68 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45807b73-8686-4761-ab57-dacd27532310")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col5"
+		(shape input)
+		(at 82.55 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45913083-dfd6-4e0f-a148-8d1ef5485387")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape input)
+		(at 132.08 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "491a3b4c-dea4-4ea2-b72a-b052e556b0db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col3"
+		(shape input)
+		(at 82.55 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a8bb499-d014-4183-b3b4-c594f21a5bec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 35.56 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fce001c-5f9e-4b35-ba66-5a478d34d99c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row3"
+		(shape input)
+		(at 105.41 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71533081-d53f-40cb-9708-0e2cbad55e3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX"
+		(shape input)
+		(at 59.69 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "816c0d9d-3023-4384-be66-c6726721becd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col5"
+		(shape input)
+		(at 213.36 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c44f229-cd12-4a22-9eef-57b59bc9422f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.36 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A"
+		(shape input)
+		(at 36.83 128.27 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8daf0c31-f6b0-4cee-8947-de6a54601464")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 132.3438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 44.45 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9083c5a1-5f92-49e5-9e34-af85d8d654c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape input)
+		(at 82.55 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0bf9bfa-4866-4474-8055-90284aa43415")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col6"
+		(shape input)
+		(at 82.55 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3425d49-8fbc-443d-b17c-a8474b42d9d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row3"
+		(shape input)
+		(at 44.45 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7994c65-f890-4812-aba5-f57a6f9f1957")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col0"
+		(shape input)
+		(at 111.76 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b03c5f59-5771-4245-b3ea-4b2285f82c92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row4"
+		(shape input)
+		(at 105.41 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5d6e33f-6b16-43c3-9660-573882578219")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX"
+		(shape input)
+		(at 44.45 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1f5251b-0853-44fd-9c14-5eebb0bc87b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 152.4 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6a7e685-5218-44da-98aa-4ee588b1fade")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B"
+		(shape input)
+		(at 77.47 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d71955c2-96e6-4405-92fa-c060b9e43788")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.7252 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX"
+		(shape input)
+		(at 44.45 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dad50613-f3fb-403c-8c61-5664fc327797")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col0"
+		(shape input)
+		(at 82.55 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7652f2b-8651-41e9-8105-68819b4ebb90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 82.55 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecf8e87d-541e-4bd2-b878-83f3bb67eb50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row2"
+		(shape input)
+		(at 44.45 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed415ad5-69b0-4c77-8e62-1664ecae83f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col4"
+		(shape input)
+		(at 82.55 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc81f647-c4e4-4df9-a67c-98b2f416f2ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row1"
+		(shape input)
+		(at 105.41 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd8cde93-9ac8-47d0-a43b-47cf607f0459")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 187.96 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0775e9b1-2d32-4248-9a4a-9c936b7003c8")
+		(property "Reference" "D25"
+			(at 189.9666 81.3816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 189.9666 83.693 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84c440d8-fa0e-40f4-a6c8-156fd17b7f08")
+		)
+		(pin "2"
+			(uuid "9209470b-e2d2-43b0-81fc-65d14da42c95")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:VCC-Lily58-cache")
+		(at 184.15 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07bffe59-d3c1-474e-96f3-c1f2989a2de4")
+		(property "Reference" "#PWR07"
+			(at 184.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 184.5818 150.5458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80334b52-3277-4b2f-ae33-e33aa9cd6e99")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 220.98 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b6a3c9c-aff6-4317-ae20-ea74d56934c8")
+		(property "Reference" "SW27"
+			(at 220.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B"
+			(at 220.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 220.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1ca6c3c-25cd-434a-86b4-d542fd0d1d2c")
+		)
+		(pin "2"
+			(uuid "402f82ed-6f4e-4b3c-a42e-166406d39a01")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 147.32 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e1792a6-790f-4790-a8ca-3c35396e983b")
+		(property "Reference" "D23"
+			(at 149.3266 81.3816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 149.3266 83.693 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43c52d6f-c489-40a7-8ea1-daedafb722f8")
+		)
+		(pin "2"
+			(uuid "baab8ab1-c2aa-4b77-87e8-780c63c87637")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 160.02 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ef20811-af2e-4ecf-9b31-db63b63fe98d")
+		(property "Reference" "SW24"
+			(at 160.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "X"
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 160.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b38174d-05d1-4a8b-952a-1c425a2f84ac")
+		)
+		(pin "2"
+			(uuid "d22e3955-6175-4e80-a170-dce22311937b")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:HOLE-Lily58-cache")
+		(at 119.38 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f7f7442-25c7-40c2-9fe0-a6c1bf14e074")
+		(property "Reference" "TH2"
+			(at 119.38 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "HOLE"
+			(at 119.38 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Lily58-footprint:HOLE_M2"
+			(at 119.38 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "TH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 208.28 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11e9b736-e19d-45ba-b991-95f01bdb3d55")
+		(property "Reference" "D26"
+			(at 210.2866 81.3816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 210.2866 83.693 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 208.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6054f257-4a74-4f26-8c86-b49516c61791")
+		)
+		(pin "2"
+			(uuid "25dce2b0-a710-483d-afc7-e34937a7ac9c")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:VCC-Lily58-cache")
+		(at 86.36 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "133a683e-20b0-4585-9192-5706c30207ca")
+		(property "Reference" "#PWR03"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8456ac5e-b2d4-4719-8f4b-4cd74b8d4970")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 127 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16c9d504-5a54-44cb-97bf-2643f1bedcd3")
+		(property "Reference" "D22"
+			(at 129.0066 81.3816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 129.0066 83.693 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "149937ba-3d82-49f5-8e91-b48bd4c85574")
+		)
+		(pin "2"
+			(uuid "7d62e1e4-8c77-4a30-a047-0201a532fd37")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 241.3 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19d42ee2-9f6c-4d90-be2b-b2a2da418368")
+		(property "Reference" "SW7"
+			(at 241.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5"
+			(at 241.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 241.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e084ca1a-c4af-4b32-aa58-82989ff0fb99")
+		)
+		(pin "2"
+			(uuid "30f39399-e7c5-40cc-a86d-8e2a37f97f97")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 119.38 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a99b5a3-8300-424b-ad96-798fdc31d2e9")
+		(property "Reference" "SW1"
+			(at 119.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESC"
+			(at 119.38 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.25u"
+			(at 119.38 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "776fe6c4-857e-4050-be53-ed11378d91bf")
+		)
+		(pin "2"
+			(uuid "6e7c9da4-4900-46da-8d4b-d2e3d864ce24")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:HOLE-Lily58-cache")
+		(at 110.49 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ba6ceae-c78d-4c40-b986-f628d3874f6c")
+		(property "Reference" "TH1"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "HOLE"
+			(at 110.49 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Lily58-footprint:HOLE_M2"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 220.98 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e70a0cd-e1a7-42c1-ac6e-e2df5a74562c")
+		(property "Reference" "SW13"
+			(at 220.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "T"
+			(at 220.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 220.98 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6483735a-9d5a-4ba6-a7d9-38f88bd3db57")
+		)
+		(pin "2"
+			(uuid "28618d18-40be-47c8-bbf4-008c347084d2")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 167.64 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ef17820-a6c6-4124-8691-dc6cca1bd8bc")
+		(property "Reference" "D24"
+			(at 169.6466 81.3816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 169.6466 83.693 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 167.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4def787-35f5-48ec-a3aa-1095b184fd29")
+		)
+		(pin "2"
+			(uuid "9dfd9eb5-aa7c-4261-b68b-0774cdc77da1")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 187.96 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22390514-3542-404b-9f0c-70da562ab3fb")
+		(property "Reference" "D18"
+			(at 189.9666 64.8716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 189.9666 67.183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d726bd8d-b590-4df9-b843-7fbc2622f1b7")
+		)
+		(pin "2"
+			(uuid "581b9c3b-2245-4675-aaab-c06611117063")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 200.66 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2414f0ed-a9ae-4f2d-97a2-31a8ec8c3ec5")
+		(property "Reference" "SW5"
+			(at 200.66 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3"
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db73f007-70bb-417c-877c-c664c8b1b90a")
+		)
+		(pin "2"
+			(uuid "6994ad50-5c66-4987-a8c8-e411e8cf7f4f")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 187.96 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a21962d-993d-4eaf-ab31-5fd4b7cd2d3d")
+		(property "Reference" "D32"
+			(at 189.9666 97.8916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 189.9666 100.203 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 187.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20f1ed8f-0813-41c6-9d78-78630394940a")
+		)
+		(pin "2"
+			(uuid "9b6d5448-7fd5-4c91-9f6b-8457ff3a8e10")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 147.32 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bce48ba-0c6d-4574-8880-0c0af76b10db")
+		(property "Reference" "D30"
+			(at 149.3266 97.8916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 149.3266 100.203 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d57e80f-8e96-4182-a384-10b4c9c40fb1")
+		)
+		(pin "2"
+			(uuid "8e541be0-9e81-46d1-a024-4983a6d21987")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 119.38 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f57d692-3894-424a-9aa4-7b9e53a3343e")
+		(property "Reference" "SW8"
+			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TAB"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.50u"
+			(at 119.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "719c3e11-c420-46b8-b7e5-787f4200a3c5")
+		)
+		(pin "2"
+			(uuid "ee032769-43fe-44eb-9277-bdf1e2338ecc")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 119.38 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31a47b57-b2ca-43e6-81e1-3a16cbb9edbd")
+		(property "Reference" "SW29"
+			(at 119.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL"
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.25u"
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b28f5902-e5c1-4bdf-876e-b03c5ff7abc2")
+		)
+		(pin "2"
+			(uuid "8194899c-dbab-4d18-9210-26a7d289ed8e")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 180.34 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34980d46-4353-448e-877b-a002a21eb990")
+		(property "Reference" "SW18"
+			(at 180.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 180.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad81dad6-cdef-46c0-a410-4bd315e7ccf1")
+		)
+		(pin "2"
+			(uuid "5d3dc10d-e6c1-49f3-9e0a-402a7785d8da")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 139.7 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3943e6f7-ee98-4c5a-ab28-731ed2f28998")
+		(property "Reference" "SW9"
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Q"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c985c1f-6c4a-42d6-8765-1da97d7c3cf8")
+		)
+		(pin "2"
+			(uuid "aa770dca-d27a-4907-ab32-6adee9cef4dd")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:GND-power")
+		(at 45.72 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43f313a9-3285-4402-a995-2df22fa11755")
+		(property "Reference" "#PWR05"
+			(at 45.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.847 107.2642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21417a64-11df-4100-b27c-9545df18e028")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 147.32 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47211055-6e0d-49e0-8321-ef7da7d15318")
+		(property "Reference" "D16"
+			(at 149.3266 64.8716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 149.3266 67.183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef0ce740-19ed-4e59-a221-79b1d90f8451")
+		)
+		(pin "2"
+			(uuid "1f02d4e4-cb1f-40df-a4d6-c58a6170d03f")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Switch:Encoder_Rotary_11mm_SPST_DShaft")
+		(at 31.75 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4832bb33-ba2a-4128-8136-12c35a1bc8f7")
+		(property "Reference" "ENC1"
+			(at 40.64 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Encoder_Rotary_11mm_SPST_DShaft"
+			(at 40.64 120.65 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Encoder:ENC_SPST_12mm"
+			(at 32.385 110.49 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft"
+			(at 31.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha Taiwan"
+			(at 31.75 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RE111F-41B3N-20F-20P-N"
+			(at 31.75 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft"
+			(at 34.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 2" "Bourns"
+			(at 31.75 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number 2" "PEC11L-4020F-S0020"
+			(at 33.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b0c3ab0b-7342-4d6b-ab8d-1a70d062e4fa")
+		)
+		(pin "2"
+			(uuid "f5ed6a0e-0c78-4fe6-aa6e-a7851812cd17")
+		)
+		(pin "1"
+			(uuid "a9c7e49a-26d0-438b-aa19-2ffae20e6b39")
+		)
+		(pin "SW1"
+			(uuid "d8640737-4397-4166-b786-1c204ecfa60a")
+		)
+		(pin "SW2"
+			(uuid "8348dd0c-8bcc-431e-967e-101ad3aa5254")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "ENC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 228.6 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49a1c4b7-c281-41f0-a33f-31fe0fcdd178")
+		(property "Reference" "D20"
+			(at 230.6066 64.8716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 230.6066 67.183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ec04afe-aa2f-489b-bedc-b8e86d4ac91d")
+		)
+		(pin "2"
+			(uuid "f1cbdb4e-718c-4ede-bfd6-db6830d20295")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 228.6 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a4d4630-9a63-4914-af5e-f998fdd7e4ec")
+		(property "Reference" "D13"
+			(at 230.6066 48.3616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 230.6066 50.673 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 228.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03358821-93bc-4892-b90b-a644d13279e0")
+		)
+		(pin "2"
+			(uuid "c88d3f38-f704-4745-8496-9b067bd7d5e7")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 208.28 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f23139f-687e-4247-a9ff-c2ae8756c38a")
+		(property "Reference" "D5"
+			(at 210.2866 31.8516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 210.2866 34.163 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 208.28 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2262e2b-2fa0-49dd-bd4f-ed327cdccbee")
+		)
+		(pin "2"
+			(uuid "f2107ecd-2e1a-4eef-9bfd-aa339f9e6307")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:GND-Lily58-cache")
+		(at 31.75 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50297c33-e90e-41a4-bd7f-903a6066732e")
+		(property "Reference" "#PWR08"
+			(at 31.75 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4357427e-0217-4208-92cd-77a986d508d1")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 248.92 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5799fbb2-a198-437e-8706-f1b8c2fa447a")
+		(property "Reference" "D7"
+			(at 250.9266 31.8516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 250.9266 34.163 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 248.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1f06477-394c-477f-a760-6ac9bf1f8a8c")
+		)
+		(pin "2"
+			(uuid "4ccbbb3e-df75-4734-944a-c23d5f89df47")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:MJ-4PP-9-Lily58-cache")
+		(at 31.75 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57a464f2-1f26-4415-9081-64f85a97873a")
+		(property "Reference" "J1"
+			(at 30.48 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4PIN"
+			(at 30.48 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:TRRS_PJ-320A"
+			(at 31.75 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a0af36e-1e78-4a54-acc8-92719c4c7c0f")
+		)
+		(pin "2"
+			(uuid "5ba9a107-ef3b-4e15-8fca-f525bbfb8425")
+		)
+		(pin "3"
+			(uuid "d1f1a0a1-4124-4e16-ae49-33a4b9c6b4b1")
+		)
+		(pin "4"
+			(uuid "1450b2df-dde8-428b-a552-9d784afeb4b9")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 139.7 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5acaafaf-a955-4e67-9870-30b005ada729")
+		(property "Reference" "SW2"
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TILDE"
+			(at 139.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 139.7 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "865152b7-ee95-4092-bf1a-2f0e9748bdc2")
+		)
+		(pin "2"
+			(uuid "5b6aadac-22de-43d4-ad86-db9c1389d6c5")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 139.7 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cea1a1e-feb6-4ff1-9e53-635be7ff85cb")
+		(property "Reference" "SW30"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "^"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a44f0de-7bb4-4350-8763-da3e28254b25")
+		)
+		(pin "2"
+			(uuid "d4e5e890-f6b8-44a4-8e90-3a277821b084")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 208.28 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e915a4c-85ba-4890-a0a7-7439e8515b15")
+		(property "Reference" "D12"
+			(at 210.2866 48.3616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 210.2866 50.673 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 208.28 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0dd13cf-378d-4a0f-a42d-b88e931e43d1")
+		)
+		(pin "2"
+			(uuid "b5fe464a-5b03-47e9-8d08-c8d4661cc9f5")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 220.98 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "621ba140-1200-4069-bc05-b9a6c74432ec")
+		(property "Reference" "SW6"
+			(at 220.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4"
+			(at 220.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 220.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b16dce7-d0a0-4a01-ac47-f8c7638157b7")
+		)
+		(pin "2"
+			(uuid "54ab84ee-36e9-4ddf-b8b8-988ced6cc779")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:GND-Lily58-cache")
+		(at 27.94 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6419fb10-1294-4ab2-964d-700532b8bcd5")
+		(property "Reference" "#PWR09"
+			(at 27.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 28.067 154.2542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccc4a258-39af-4282-a359-f7fc5701aa09")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:HOLE-Lily58-cache")
+		(at 147.32 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64bfd8b1-cbf7-413b-b86a-20691e0c3227")
+		(property "Reference" "TH5"
+			(at 147.32 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "HOLE"
+			(at 147.32 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Lily58-footprint:HOLE_M2_TH"
+			(at 147.32 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "TH5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 200.66 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "661afd99-b59f-4636-8ca8-17f8c65ee615")
+		(property "Reference" "SW33"
+			(at 200.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ALT"
+			(at 200.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.25u"
+			(at 200.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a431a72-48a3-49ca-81c9-4bee735a9b27")
+		)
+		(pin "2"
+			(uuid "267c41eb-97fe-4169-981d-16e3bef25281")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_DIN0204_P2.54mm")
+		(at 52.07 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "663d5b97-2642-4640-9fb6-cea1d3c97375")
+		(property "Reference" "Rtx1"
+			(at 52.07 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_DIN0204_P2.54mm"
+			(at 52.07 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_US_AKL:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "THT 0204 Resistor, 2.54mm Pin Pitch, European Symbol, Alternate KiCad Library"
+			(at 52.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "000bc504-ea06-4c80-a84b-8c96e102bd7f")
+		)
+		(pin "2"
+			(uuid "ae52f4e9-dda6-4639-b932-92fde4bbedea")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "Rtx1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 147.32 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66df3921-3ce6-4796-9a51-f0d9813c39a5")
+		(property "Reference" "D2"
+			(at 149.3266 31.8516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 149.3266 34.163 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 147.32 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c985f6c-7135-484a-8474-d8ed4108b137")
+		)
+		(pin "2"
+			(uuid "af5d7b2e-d459-42af-8f4c-25651b5a0f35")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 248.92 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67dd6c4c-98ff-497f-ad18-19589beead2c")
+		(property "Reference" "D28"
+			(at 250.9266 81.3816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 250.9266 83.693 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 248.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "747da74a-8053-47fd-b273-73b99e79c7bc")
+		)
+		(pin "2"
+			(uuid "c2e0b309-e803-4d19-bdf0-313381c1007a")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 160.02 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "680c6f74-d527-4e0c-b10f-6e0c8a8b7202")
+		(property "Reference" "SW31"
+			(at 160.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "v"
+			(at 160.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 160.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21e20672-6fe4-438d-b79e-70dd0f73c9b0")
+		)
+		(pin "2"
+			(uuid "aa3312ff-aad9-45e8-bb6d-2e488de92bd0")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 241.3 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ad2f2d9-da93-4970-b4da-48ef72cd1ac9")
+		(property "Reference" "SW21"
+			(at 241.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "{"
+			(at 241.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 241.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57db8f18-f3fd-4994-8fcf-153a5640a7a8")
+		)
+		(pin "2"
+			(uuid "684475cc-52be-4845-8300-ce4d0a6b1224")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 167.64 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c1543bb-ffe5-4462-9c31-f2c3bd3ffaae")
+		(property "Reference" "D3"
+			(at 169.6466 31.8516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 169.6466 34.163 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 167.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b32c83f1-0478-4160-9f8a-35690817060f")
+		)
+		(pin "2"
+			(uuid "b9bf64ca-afa4-4941-9705-0f1d3f267292")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 119.38 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cad2628-2b3c-436d-a440-90fd14ff44e5")
+		(property "Reference" "SW15"
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAPSLOCK"
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.75u"
+			(at 119.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cbf2847-6f66-488c-83bd-fce0beca869a")
+		)
+		(pin "2"
+			(uuid "b2b2afaa-ed3f-45f5-8255-aa629d375c7c")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 167.64 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cd132e5-addc-49d2-9485-04380c56d68e")
+		(property "Reference" "D10"
+			(at 169.6466 48.3616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 169.6466 50.673 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 167.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c090eef-40db-4b03-969f-f5f28f2d54dc")
+		)
+		(pin "2"
+			(uuid "5e4041ae-c974-49b7-8bda-c16a67565cef")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:GND-Lily58-cache")
+		(at 31.75 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78259e21-d2f8-484d-bcd4-6c663226c39b")
+		(property "Reference" "#PWR02"
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "755be250-9be6-4c6d-9d0d-221eefd9f904")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 187.96 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8170f9b7-a507-47b6-adee-f67b4a4e63ed")
+		(property "Reference" "D11"
+			(at 189.9666 48.3616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 189.9666 50.673 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 187.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87bea4ac-273e-42fb-b3bc-94ce91ecfb7a")
+		)
+		(pin "2"
+			(uuid "67ad6e1e-1f23-480f-af84-433624fa9e06")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 200.66 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84176ad9-111c-4de9-8ace-fa701439c0de")
+		(property "Reference" "SW12"
+			(at 200.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 200.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "104910de-a3c5-4a62-bbed-db63bce47cc0")
+		)
+		(pin "2"
+			(uuid "88a3d80d-3bc7-41ff-8436-399ce27e248e")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:ProMicro_2-Lily58-cache")
+		(at 60.96 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8597500b-f0d0-4c07-bc31-98a09b8542f5")
+		(property "Reference" "U1"
+			(at 60.96 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ProMicro"
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MCU:Arduino_Pro_Micro"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "24"
+			(uuid "88f41bec-929c-43d3-ab37-bb0989a641a2")
+		)
+		(pin "5"
+			(uuid "06b03299-e5bc-4db0-8871-2e183450c278")
+		)
+		(pin "7"
+			(uuid "52395476-cbc3-4db5-a56c-1930a0b5856c")
+		)
+		(pin "6"
+			(uuid "25a66547-9f35-42ce-9488-d115758540f7")
+		)
+		(pin "8"
+			(uuid "23eef3c9-4874-45ca-95d4-16b0c726fa68")
+		)
+		(pin "1"
+			(uuid "7d930943-38e1-4ecd-98b3-011a6c9a7926")
+		)
+		(pin "10"
+			(uuid "7955d0a0-78c6-46de-b27e-aa8688afe959")
+		)
+		(pin "11"
+			(uuid "79f46862-939f-4946-bba5-115949875a70")
+		)
+		(pin "12"
+			(uuid "b64863db-e1bf-4556-960a-17f2b37171ae")
+		)
+		(pin "13"
+			(uuid "b5e1a691-10f2-4632-a415-945415b12cc3")
+		)
+		(pin "14"
+			(uuid "99822655-1f4f-4b29-9ca5-d25e235c8a11")
+		)
+		(pin "15"
+			(uuid "a73f8c1d-28a0-4eab-8884-095e58937eab")
+		)
+		(pin "16"
+			(uuid "4224a1aa-06de-4345-8123-c0ffd0dc7b59")
+		)
+		(pin "17"
+			(uuid "861c5c28-c91b-4261-9b1d-67f68e39e4b6")
+		)
+		(pin "18"
+			(uuid "823a9025-6192-46c4-9929-4247392651ac")
+		)
+		(pin "19"
+			(uuid "e89be74a-ae6b-40c3-b0cc-6960550c5aeb")
+		)
+		(pin "2"
+			(uuid "3d4d1ac1-0432-4cb9-a686-a49e2185d376")
+		)
+		(pin "20"
+			(uuid "c6979e23-6137-443a-b40c-1966caf7d194")
+		)
+		(pin "21"
+			(uuid "37d74cd4-7c46-4507-af73-ec796757dafe")
+		)
+		(pin "22"
+			(uuid "5211a1ba-5e84-456d-ad74-e30193e01d78")
+		)
+		(pin "23"
+			(uuid "2ff50a09-3bd9-4db3-b601-20edb6fa6c95")
+		)
+		(pin "4"
+			(uuid "bf14efa0-11fd-4694-9a53-5046ece727c9")
+		)
+		(pin "9"
+			(uuid "b8e28b0a-d547-40a6-8949-73bdc266df3f")
+		)
+		(pin "3"
+			(uuid "41aa47f0-a874-4e3d-88fe-bdc2eccb272b")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 167.64 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86d15907-327d-4412-bbde-0b6aa77127d5")
+		(property "Reference" "D17"
+			(at 169.6466 64.8716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 169.6466 67.183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c1f4815-a52b-41bf-a013-0bad694779ce")
+		)
+		(pin "2"
+			(uuid "8179e1fe-7bc5-48e0-826d-2772f1b060eb")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 127 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "876f47e0-3120-4759-8a26-5d7feaaa320b")
+		(property "Reference" "D1"
+			(at 129.0066 31.8516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 129.0066 34.163 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 127 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25f36068-9311-4c95-827d-d940d2623779")
+		)
+		(pin "2"
+			(uuid "e3e53116-67ca-4ed2-a16b-58bf8208fa3d")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:GND-Lily58-cache")
+		(at 86.36 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88233a2a-485f-490a-970f-60d819b80829")
+		(property "Reference" "#PWR01"
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10990631-911b-4333-8306-8b6a6c81ea81")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 119.38 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c88650c-6cbe-4cff-b0e3-f98914a4fa79")
+		(property "Reference" "SW22"
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SHIFT"
+			(at 119.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.75u"
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "240051c6-f6c3-4cd9-9159-c4ed7e8f1cb8")
+		)
+		(pin "2"
+			(uuid "afc5da00-0d83-4fc3-a618-a2453bcb4926")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:HOLE-Lily58-cache")
+		(at 138.43 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dd3018e-99ff-43ff-a7cf-eca1b20d5f05")
+		(property "Reference" "TH4"
+			(at 138.43 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "HOLE"
+			(at 138.43 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Lily58-footprint:HOLE_M2_TH"
+			(at 138.43 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "TH4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 241.3 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fa4e5f5-7d9b-4458-9552-aeeda8184c20")
+		(property "Reference" "SW28"
+			(at 241.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "}"
+			(at 241.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1ad98f8-9601-4a69-9ab3-a64a11d960ac")
+		)
+		(pin "2"
+			(uuid "eda5961f-4cb0-4f83-8344-fa5af68bf477")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:VCC-power")
+		(at 45.72 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "938c49c4-341c-4fad-b506-e360fe2817a7")
+		(property "Reference" "#PWR04"
+			(at 45.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 46.1518 87.0458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1b8915e-7038-4975-8d6f-4a1ff86b23b6")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:HOLE-Lily58-cache")
+		(at 129.54 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95b9e8e9-28de-4b56-ac24-19e45fd50f24")
+		(property "Reference" "TH3"
+			(at 129.54 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "HOLE"
+			(at 129.54 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Lily58-footprint:HOLE_M2_TH"
+			(at 129.54 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "TH3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 127 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96619c47-2455-4369-8366-f3623cc45e8e")
+		(property "Reference" "D15"
+			(at 129.0066 64.8716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 129.0066 67.183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc8078e6-a31b-4beb-8dc3-85ef16ccf450")
+		)
+		(pin "2"
+			(uuid "2a09a79f-e307-43a1-aae0-c80349bc3f22")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:HOLE-Lily58-cache")
+		(at 156.21 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b261d33-17ff-419c-bb88-bb191ab60de1")
+		(property "Reference" "TH6"
+			(at 156.21 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "HOLE"
+			(at 156.21 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Lily58-footprint:HOLE_M2_TH"
+			(at 156.21 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "TH6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 248.92 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c79c56c-a1ae-4cd0-851f-acf544c8c516")
+		(property "Reference" "D14"
+			(at 250.9266 48.3616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 250.9266 50.673 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 248.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c569f65a-18bf-4ab2-b65f-1f6365b112ef")
+		)
+		(pin "2"
+			(uuid "cc47aa2b-c8ea-4577-8793-f9bce11d15b9")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 180.34 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0d6be0c-fff1-4d4d-b231-b20c494ea0a2")
+		(property "Reference" "SW4"
+			(at 180.34 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2"
+			(at 180.34 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec45eb1b-6bf1-4cea-8f21-7ef7000b7f2c")
+		)
+		(pin "2"
+			(uuid "20f8ded6-1906-4054-b3bf-4778e368f751")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 208.28 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a52b17f1-a22d-490a-98d1-fe12f13d5be4")
+		(property "Reference" "D19"
+			(at 210.2866 64.8716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 210.2866 67.183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "082ae3b3-dab2-4776-ba1f-86255d9e650b")
+		)
+		(pin "2"
+			(uuid "b9960ab9-516f-42c8-beed-3d5e0e6a10cb")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 127 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aac974ce-4151-49f4-be4c-f18a67ac1690")
+		(property "Reference" "D29"
+			(at 129.0066 97.8916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 129.0066 100.203 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4429031-db25-42c3-a9e6-35a63204d8d5")
+		)
+		(pin "2"
+			(uuid "ed3eccee-f5ac-4561-b5dd-18d893923ab2")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:PWR_FLAG-Lily58-cache")
+		(at 175.26 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab906a14-7aae-4c28-a478-316a6efe79a3")
+		(property "Reference" "#FLG01"
+			(at 175.26 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 175.26 150.5204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81b0ca3c-487b-4f7c-a5b8-436781899b63")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:HOLE-Lily58-cache")
+		(at 165.1 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ace271b4-c40c-4cd1-9b90-5b5d4712575f")
+		(property "Reference" "TH7"
+			(at 165.1 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "HOLE"
+			(at 165.1 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Lily58-footprint:HOLE_M2_TH"
+			(at 165.1 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "TH7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 228.6 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ade4a01f-6d10-4125-8cf1-cc31429fd73a")
+		(property "Reference" "D6"
+			(at 230.6066 31.8516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 230.6066 34.163 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 228.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "944c346e-f251-47ff-aeac-e1742b23867d")
+		)
+		(pin "2"
+			(uuid "1da40689-c7d2-45ac-8059-12756534f214")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 180.34 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b13fb336-5e17-4003-964c-1e13d04f44e1")
+		(property "Reference" "SW11"
+			(at 180.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "E"
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 180.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a84a398-6f03-4a92-9bb2-6dcd53f9e623")
+		)
+		(pin "2"
+			(uuid "71d4a238-ef44-4f4f-981f-ba47e8dd74b9")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_RST-Lily58-cache")
+		(at 31.75 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8e4d7cf-d4f5-4f72-829b-377d325b0813")
+		(property "Reference" "RSW1"
+			(at 31.75 143.3576 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "SW_RST"
+			(at 31.75 145.4658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Experimental_FP:SW_PUSH_6mm_H13mm"
+			(at 31.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c615f5bd-af86-4cbe-bd12-efbbfb74a807")
+		)
+		(pin "2"
+			(uuid "206dc675-367d-4b20-a736-08c229819dcd")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "RSW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 180.34 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbb039a6-1076-497c-a267-6f7b3924ab73")
+		(property "Reference" "SW25"
+			(at 180.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73324888-8c70-4b92-b601-32d343e282c5")
+		)
+		(pin "2"
+			(uuid "0782e70e-de8d-41be-9f4e-f2163fc5ecc7")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 160.02 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bee4cad0-777d-4593-944f-41472cc93b95")
+		(property "Reference" "SW17"
+			(at 160.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S"
+			(at 160.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e57b3a2-cba7-4adb-810d-f94749afdaeb")
+		)
+		(pin "2"
+			(uuid "78b4049b-b9cd-466d-93b8-ce0d9fb8b08e")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 180.34 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c57c40e3-c9dc-4691-880e-bfe98acd497b")
+		(property "Reference" "SW32"
+			(at 180.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SUPER"
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.25u"
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bb69c45-70f1-4520-9d46-01589d486def")
+		)
+		(pin "2"
+			(uuid "f55143b9-9e36-4d0a-87e0-4c112786fdaa")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 160.02 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c67441ad-e1d7-433f-9ebf-1e771ab17d72")
+		(property "Reference" "SW10"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W"
+			(at 160.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 160.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30d77bfd-1dec-4f29-b853-50ee1c55ea24")
+		)
+		(pin "2"
+			(uuid "c4805961-7e45-4865-bf69-d54a4dd01cfd")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:GND-Lily58-cache")
+		(at 175.26 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7b73c43-2100-4f40-bfb3-fb63ada9e68a")
+		(property "Reference" "#PWR06"
+			(at 175.26 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.387 159.3342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4721a782-1f72-4b06-9446-11bd838b4c89")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 208.28 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7dd4780-7e91-41ea-b433-308ace5279da")
+		(property "Reference" "D33"
+			(at 210.2866 97.8916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 210.2866 100.203 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 208.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29b194fc-f22c-4609-94ac-04617d934609")
+		)
+		(pin "2"
+			(uuid "a9dc7d14-8709-4f96-bc09-ab03b1063b19")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 147.32 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7d76c98-d654-44a9-9241-f36f0f56a863")
+		(property "Reference" "D9"
+			(at 149.3266 48.3616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 149.3266 50.673 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fa7e787-1cb3-4287-b68d-284a32cbfa50")
+		)
+		(pin "2"
+			(uuid "4859cd07-4f68-4db4-b9d6-27e06b65d9b7")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 167.64 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d91d8d5b-563c-431d-b619-49eb2c87e989")
+		(property "Reference" "D31"
+			(at 169.6466 97.8916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 169.6466 100.203 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 167.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a130eff0-7c89-42f8-a6e0-b9610b52bf5a")
+		)
+		(pin "2"
+			(uuid "8f18c8ee-3a46-4ec4-b32a-ef54c91e4f0a")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 187.96 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e039664b-60fe-45e1-953d-bb67b0586ef5")
+		(property "Reference" "D4"
+			(at 189.9666 31.8516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 189.9666 34.163 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 187.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bf1f7cc-0a25-498b-9fcf-3fff8c7c1bc3")
+		)
+		(pin "2"
+			(uuid "c64553ec-5dd0-401f-ab9c-852858f743dc")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 127 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1516eee-3a4e-4a9a-933f-27d280f66c8b")
+		(property "Reference" "D8"
+			(at 129.0066 48.3616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 129.0066 50.673 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 127 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ed2c8d7-2e62-4930-b7f7-dec756aee974")
+		)
+		(pin "2"
+			(uuid "a7600e1d-4328-4791-aafc-b8d448f3057d")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 139.7 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e25039e6-436d-410a-acdf-210da702a72b")
+		(property "Reference" "SW16"
+			(at 139.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "A"
+			(at 139.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 139.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dce8d72-8862-4021-bce3-da0e9e7f0f2f")
+		)
+		(pin "2"
+			(uuid "5761f226-ca27-41aa-b9a7-4c7749b8cf2b")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 248.92 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e346a5f9-634f-4829-956a-defd3a180c44")
+		(property "Reference" "D21"
+			(at 250.9266 64.8716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 250.9266 67.183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 248.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ba478bb-3171-4073-9b4e-47b9e42b5a24")
+		)
+		(pin "2"
+			(uuid "f35292f0-05d2-4699-ae2f-d3e1206c4ab6")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 248.92 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8b44bc1-aa69-4911-869e-da5ded8a55e7")
+		(property "Reference" "D35"
+			(at 250.9266 97.8916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 250.9266 100.203 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 248.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34febdbf-9baf-413d-b1c6-4627b0dc1fe5")
+		)
+		(pin "2"
+			(uuid "ebc8a758-679a-4c35-ad12-e271770c3217")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 200.66 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8dca2ab-6282-492c-b1f7-a19165301fa1")
+		(property "Reference" "SW19"
+			(at 200.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "F"
+			(at 200.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 200.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80fd3d9b-4b10-477e-9381-f6082a5c4e0f")
+		)
+		(pin "2"
+			(uuid "3cba6fd0-4811-4ff3-bc68-1096840bd416")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 139.7 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea86de72-2c56-4fd3-a6a7-601f26de9e23")
+		(property "Reference" "SW23"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Z"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "291bdad6-2ba5-4167-accf-d2c44fc47ffc")
+		)
+		(pin "2"
+			(uuid "70c44b42-722c-4839-8213-42b1bb328274")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 241.3 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eafcbd8a-61f5-4379-986e-947b3db04d97")
+		(property "Reference" "SW35"
+			(at 241.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BACKSPACE"
+			(at 241.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_2.00u"
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5488096c-2011-47ed-b188-e20b550c742d")
+		)
+		(pin "2"
+			(uuid "5e4d8735-b682-48bd-b298-18f713c5f33e")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 241.3 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebce8a9d-44ab-4916-aac1-843a91c9075a")
+		(property "Reference" "SW14"
+			(at 241.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Y"
+			(at 241.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80fa1ecf-1013-40df-b853-f61dbd46a689")
+		)
+		(pin "2"
+			(uuid "30ad06c5-c4df-4268-b4fc-8361ca524658")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 220.98 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0308965-d100-4c87-ac9f-39eb2dfff94a")
+		(property "Reference" "SW20"
+			(at 220.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G"
+			(at 220.98 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 220.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d2e7f00-4d88-40b7-89e5-e627404dcbce")
+		)
+		(pin "2"
+			(uuid "9148ea0f-960c-4154-9569-0e442615f83e")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:PWR_FLAG-Lily58-cache")
+		(at 184.15 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f06951e8-e96f-42b5-890c-c4ffc8d6ff09")
+		(property "Reference" "#FLG02"
+			(at 184.15 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 184.15 159.3342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1969d801-c15d-490c-93bf-fe01f9be2401")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 200.66 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3503d8d-86e2-4ae1-90fa-f1021af76e35")
+		(property "Reference" "SW26"
+			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V"
+			(at 200.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 200.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ec5109f-743e-48de-982b-a3df89734c66")
+		)
+		(pin "2"
+			(uuid "cd04c658-81b3-4e29-b1f3-1acfb0447ace")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 228.6 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7039c15-2531-47de-ae48-e2de76322c94")
+		(property "Reference" "D27"
+			(at 230.6066 81.3816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 230.6066 83.693 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7058409a-5bc7-4715-953c-0b43c107a648")
+		)
+		(pin "2"
+			(uuid "cd8cb42c-f1ab-4d57-afbf-d1be86412830")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 220.98 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f971c614-ab80-49d0-b86e-78f53bb2133f")
+		(property "Reference" "SW34"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPACE"
+			(at 220.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_2.00u"
+			(at 220.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e9ae394-a13c-4965-b421-ba838d300103")
+		)
+		(pin "2"
+			(uuid "66215f1d-be2f-4070-982a-ff941d16853c")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_DIN0204_P2.54mm")
+		(at 52.07 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f990af17-1390-4cab-8d02-22850833ce13")
+		(property "Reference" "Rrx1"
+			(at 52.07 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_DIN0204_P2.54mm"
+			(at 52.07 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_US_AKL:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+			(at 63.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "THT 0204 Resistor, 2.54mm Pin Pitch, European Symbol, Alternate KiCad Library"
+			(at 52.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0875fa38-b6f0-4735-a8e2-b3b314c76d32")
+		)
+		(pin "2"
+			(uuid "2efc65e4-530c-4084-9e0d-63c2812b25e9")
+		)
+		(instances
+			(project ""
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "Rrx1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:SW_PUSH-Lily58-cache")
+		(at 160.02 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb638813-6e65-40f7-a8b5-139c5c0d6846")
+		(property "Reference" "SW3"
+			(at 160.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 160.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u_Reversable"
+			(at 160.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5eb4338-6a1f-4667-b8bd-cabda5f3e146")
+		)
+		(pin "2"
+			(uuid "4f56ab9e-1379-4652-a410-0fc9f9739256")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lily58-rescue:D-Lily58-cache")
+		(at 228.6 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffd3ab5d-7e1a-4306-9a6a-fdc46b5607e7")
+		(property "Reference" "D34"
+			(at 230.6066 97.8916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 230.6066 100.203 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 228.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d243989-ae7c-42eb-8978-42110fb06e26")
+		)
+		(pin "2"
+			(uuid "eed2c86c-aa1a-4940-80ce-7d089d4dd045")
+		)
+		(instances
+			(project "ataro_v0.2"
+				(path "/109043e9-e37a-4555-bee6-988a67d2f412"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
