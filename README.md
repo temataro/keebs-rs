@@ -12,7 +12,7 @@ Probes can translate from the USB/Ethernet interface on your computer to the
 target interface.
 (SWD for ARM, JTAG for ?..., etc)
 
-===============================================================================
+_____________________________________________________________
 We'll be using `elf2uf2-rs` which will convert the `.elf` file we generate to
 binary targets for the cortex-m0+ uC. Loading a `.uf2` over USB.
 
@@ -29,8 +29,8 @@ It's found in `/run/media/tem`
 runner = "elf2uf2-rs -d"
 ```
 
-===============================================================================
 
+_____________________________________________________________
 (Alternate): Look into `picotool`. The `elf` produced by Rust should be compatible
 with the output that it takes. Just append a `.elf` to the binary.
 
